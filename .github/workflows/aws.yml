@@ -35,5 +35,6 @@ jobs:
           REPOSITORY: dashboard-zeitgeist
           IMAGE_TAG: latest
         run: |
+          echo "Using registry: $REGISTRY"
           docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
