@@ -32,7 +32,7 @@ jobs:
       - name: Build, tag, and push docker image to Amazon ECR
         env:
           REGISTRY: ${{ steps.login-ecr-public.outputs.registry }}
-          REPOSITORY: dashboard-zeitgeist
+          REPOSITORY: i5n8a2k4/dashboard-zeitgeist
           IMAGE_TAG: latest
         run: |
           echo "Using registry: $REGISTRY"
