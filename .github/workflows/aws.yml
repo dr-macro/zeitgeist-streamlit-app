@@ -31,7 +31,7 @@ jobs:
 
       - name: Build, tag, and push docker image to Amazon ECR
         env:
-          REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          REGISTRY: ${{ steps.login-ecr-public.outputs.registry }}
           REPOSITORY: dashboard-zeitgeist
           IMAGE_TAG: latest
         run: |
