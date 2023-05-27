@@ -7,7 +7,7 @@ import numpy as np
 st.set_page_config(page_title='Country 1', layout='wide')
 st.markdown("#Content to be added soon")
 
-print('Hello Hello Hello')
+print('Hello')
 
 #image1
 
