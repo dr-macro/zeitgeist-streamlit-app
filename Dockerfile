@@ -10,4 +10,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD sh setup.sh && streamlit run main.py
+CMD sh setup.sh && streamlit run main.py --server.enableWebsocketCompression=false
