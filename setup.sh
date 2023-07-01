@@ -5,6 +5,7 @@ echo "\
 headless = true\n\
 port = $PORT\n\
 enableCORS = false\n\
+enableXsrfProtection=false\n\
 \n\
 \n\
 [theme]\n\
