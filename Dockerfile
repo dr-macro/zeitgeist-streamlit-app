@@ -1,6 +1,6 @@
 FROM python:3.9
 
-ENV PORT=8578
+ENV PORT=80
 
 EXPOSE $PORT
 
